@@ -1,0 +1,72 @@
+# Clawdbot 临时文件
+*.log
+*.tmp
+*.swp
+*~
+
+# 环境变量和敏感文件
+.env
+.env.local
+.env.*.local
+
+# Node 依赖
+node_modules/
+package-lock.json
+
+# Python 依赖和缓存
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# 媒体文件
+media/
+downloads/
+Screenshots/
+
+# 压缩包
+*.zip
+
+# 文档
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 临时目录
+tmp/
+temp/
+logs/
+
+# Clawdbot 配置
+.clangbot/
+.clawdbot/
+.clawdhub/
+
+# 不需要的文件
+BOOTSTRAP.md
+
+# Douyin_TikTok_Download_API
+Douyin_TikTok_Download_API/
+Douyin_TikTok_Download_API-*.zip
+
+# 抖音热榜数据（不要提交历史数据）
+skills/douyin/data/hot/
+skills/douyin/.env
+skills/douyin/logs/
+
+# 其他不需要的技能
+automations/
+canvas/
+web-server/
